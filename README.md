@@ -32,11 +32,11 @@ export GEMINI_API_KEY="your_actual_api_key_here"
 python app.py
 ```
 
-The web interface will be available at: `http://localhost:8080`
+The web interface will be available at: `http://127.0.0.1:8080`
 
 ## Usage
 
-1. Open your web browser and navigate to `http://localhost:8080`
+1. Open your web browser and navigate to `http://127.0.0.1:8080`
 2. Type your message in the input field
 3. Press Enter or click the Send button
 4. Wait for Gemini's response
