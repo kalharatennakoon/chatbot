@@ -32,11 +32,11 @@ export GEMINI_API_KEY="your_actual_api_key_here"
 python app.py
 ```
 
-The web interface will be available at: `http://localhost:5000`
+The web interface will be available at: `http://localhost:8080`
 
 ## Usage
 
-1. Open your web browser and navigate to `http://localhost:5000`
+1. Open your web browser and navigate to `http://localhost:8080`
 2. Type your message in the input field
 3. Press Enter or click the Send button
 4. Wait for Gemini's response
@@ -61,11 +61,5 @@ chatbot/
 ## Troubleshooting
 
 - **API Key Error**: Make sure you've set the `GEMINI_API_KEY` environment variable correctly
-- **Port Already in Use**: Change the port in `app.py` or kill the process using port 5000
+- **Port Already in Use**: Change the port in `app.py` or kill the process using port 8080
 - **Module Not Found**: Install dependencies with `pip install -r requirements.txt`
-
-## Security Notes
-
-- Never commit your API key to version control
-- Always use environment variables for sensitive data
-- The web interface is for development use only 
